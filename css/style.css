@@ -1,0 +1,26 @@
+header {
+    background-color: #2c3e50;
+    height: 50px;
+}
+
+.ms_background-a {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.ms_background-b {
+    background-color: #fff;
+}
+
+.ms_background-c {
+    background-color: #3a546d;
+    color: #fff;
+}
+
+.text-center img {
+    height: 120px;
+}
+
+.ms_radius {
+    border-radius: 10px;
+}
