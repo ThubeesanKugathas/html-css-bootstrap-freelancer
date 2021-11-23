@@ -1,7 +1,10 @@
-header {
+header, footer {
     background-color: #2c3e50;
     height: 50px;
+    color: #fff;
 }
+
+/* ----------------------------------MAIN---------------------------- */
 
 .ms_background-a {
     background-color: #1abc9c;
@@ -17,10 +20,86 @@ header {
     color: #fff;
 }
 
+.ms_star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ms_star hr {
+    display: inline-block;
+    border: none;
+    width: 100px;
+    margin: 0 10px;
+    height: 2px;
+}
+
+/* parte uno  */
 .text-center img {
     height: 120px;
 }
 
+/* parte due  */
 .ms_radius {
     border-radius: 10px;
 }
+
+/* parte tre  */
+.ms_download span{
+    font-size: 12px;
+    padding: 7px 5px;
+    border: #fff 1px solid;
+    border-radius: 10px;
+}
+
+.ms_download span:hover {
+    color: #1abc9c;
+    background-color: #fff;
+}
+
+/* ultima parte  */
+.ms_logo {
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.ms_logo:hover {
+    color: #3a546d;
+    background-color: #fff;
+}
+
+.fa-facebook-f.ms_logo {
+    padding: 10px 15px;
+}
+
+.fa-google-plus-g.ms_logo {
+    padding: 10px 8px;
+}
+
+.fa-linkedin.ms_logo {
+    padding: 10px 12px;
+}
+
+.ms_green-text {
+    color: #1abc9c;
+}
+
+.ms_green-text:hover {
+    text-decoration: underline;
+}
+
+/* --------------------------FOOTER-------------------------------------- */
+.ms_vertical-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 12px;
+}
+
+.ms_spacing-logo {
+    margin: 0 5px;
+}
+
