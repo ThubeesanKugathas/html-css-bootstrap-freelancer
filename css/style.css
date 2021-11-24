@@ -7,35 +7,6 @@ header nav {
     font-weight: bold;
 }
 
-.ms_grow-h1 {
-    flex-grow: 1;
-}
-
-
-.ms_nav-link-color {
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-}
-
-.ms_nav-link-color:hover {
-    text-decoration: underline;
-    color: #fff;
-}
-
-.ms_no-grow {
-    flex-grow: 0;
-}
-
-.ms_icon-bg {
-    border: 1px #ccc solid;
-}
-
-.ms_icon-img {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    opacity: 0.5;
-}
 /* ----------------------------------MAIN---------------------------- */
 
 .ms_background-a {
