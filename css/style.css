@@ -62,7 +62,7 @@ header nav {
 .ms_star hr {
     display: inline-block;
     border: 2px solid;
-    width: 100px;
+    width: 11%;
     margin: 0 10px;
     opacity: 1;
 }
@@ -78,16 +78,11 @@ header nav {
 }
 
 /* parte tre  */
-.ms_download span{
+.ms_download-button {
+    text-align: center;
+    color: #fff;
+    border: #fff solid 1px;
     font-size: 12px;
-    padding: 7px 5px;
-    border: #fff 1px solid;
-    border-radius: 10px;
-}
-
-.ms_download span:hover {
-    color: #1abc9c;
-    background-color: #fff;
 }
 
 /* parte quattro  */
