@@ -108,7 +108,7 @@ input {
 
 /* ultima parte  */
 .ms_logo {
-    font-size: 90%;
+    font-size: 20px;
     padding: 9px;
     border: 1px solid #fff;
     border-radius: 50%;
@@ -143,6 +143,10 @@ input {
 
 
 /* --------------------------FOOTER-------------------------------------- */
+footer span {
+    font-size: 12px;
+}
+
 
 .ms_spacing-logo {
     margin: 0 5px;
