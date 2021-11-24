@@ -14,22 +14,25 @@
     <header>
         <div class="container">
             <nav class="navbar nabar-dark navbar-expand-sm">
+
                 <span class="navbar-brand mb-0 h1 ms_grow-h1">START BOOTSTRAP</span>
+
                 <button class="navbar-toggler ms_icon-bg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon ms_icon-img"></span>
                 </button>
+
                 <div class="collapse navbar-collapse ms_no-grow" id="navbarcollapse">
                     <ul class="nav">
                         <li class="ms-3">
-                            <a class="ms_nav-link-color" href="#">PORTFOLIO</a>
+                            <a class="ms_nav-link-color" href="#portfolio">PORTFOLIO</a>
                         </li>
                     
                         <li class="ms-3">
-                            <a class="ms_nav-link-color" href="#">ABOUT</a>
+                            <a class="ms_nav-link-color" href="#about">ABOUT</a>
                         </li>
                     
                         <li class="ms-3">
-                            <a class="ms_nav-link-color" href="#">CONTACT</a>
+                            <a class="ms_nav-link-color" href="#contact">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -61,7 +64,7 @@
         <div class="container-fluid ms_background-b py-4">
             <div class="container">
                 <div class="text-center">
-                    <h2>PORTFOLIO</h2>
+                    <h2 id="portfolio">PORTFOLIO</h2>
                     <div class="ms_star m-3">
                         <hr>
                         <i class="fas fa-star"></i>
@@ -103,7 +106,7 @@
         <div class="container-fluid ms_background-a py-4">
             <div class="container">
                 <div class="text-center">
-                    <h2>ABOUT</h2>
+                    <h2 id="about">ABOUT</h2>
                     <div class="ms_star m-3">
                         <hr>
                         <i class="fas fa-star"></i>
@@ -137,12 +140,21 @@
         <div class="container-fluid ms_background-b py-4">
             <div class="container">
                 <div class="text-center">
-                    <h2>CONTACT ME</h2>
+                    <h2 id="contact">CONTACT ME</h2>
                     <div class="ms_star m-3">
                         <hr>
                         <i class="fas fa-star"></i>
                         <hr>
                     </div>
+                </div>
+                <div class="px-5">
+                    <form>
+                        <input class="mb-3" type="text" placeholder="Nome">
+                        <input class="mb-3" type="text" placeholder="Email Address">
+                        <input class="mb-3" type="text" placeholder="Phone Number">
+                        <textarea class="mb-3" placeholder="Message" name="" id="" cols="30" rows="7"></textarea>
+                    </form>
+                    <button type="button" class="btn py-1 ms_button-bg">Send</button>
                 </div>
             </div>
         </div>
@@ -156,14 +168,14 @@
                 <div class="row">
                     <div class="col-12 col-sm-4">
                         <div class="text-center mb-4">
-                            <h3>LOCATION</h3>
+                            <h4>LOCATION</h4>
                             <p>2215 John Daniel Drive Clark, MO 54243</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-4">
                         <div class="text-center mb-4">
-                            <h3>AROUND THE WEB</h3>
+                            <h4>AROUND THE WEB</h4>
                             <i class="fab fa-facebook-f ms_logo"></i>
                             <i class="fab fa-google-plus-g ms_logo"></i>
                             <i class="fab fa-twitter ms_logo"></i>
@@ -173,7 +185,7 @@
 
                     <div class="col-12 col-sm-4">
                         <div class="text-center">
-                            <h3>ABOUT FREELANCER</h3>
+                            <h4>ABOUT FREELANCER</h4>
                             <p>Freelancerr is a free to use, open source Bootstrap theme created by <span class="ms_green-text">Start Bootstrap</span>.</p>
                         </div>
                     </div>
