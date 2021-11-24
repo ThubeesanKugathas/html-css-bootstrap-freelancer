@@ -108,7 +108,7 @@ input {
 
 /* ultima parte  */
 .ms_logo {
-    font-size: 25px;
+    font-size: 90%;
     padding: 9px;
     border: 1px solid #fff;
     border-radius: 50%;
@@ -137,17 +137,12 @@ input {
 
 .ms_green-text:hover {
     text-decoration: underline;
+
 }
 
+
+
 /* --------------------------FOOTER-------------------------------------- */
-.ms_vertical-align {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    font-size: 12px;
-    padding: 20px 0;
-}
 
 .ms_spacing-logo {
     margin: 0 5px;
